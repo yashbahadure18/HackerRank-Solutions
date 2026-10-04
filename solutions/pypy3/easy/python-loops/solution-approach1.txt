@@ -1,0 +1,18 @@
+# ──────────────────────────────────────────────────
+# Link        https://www.hackerrank.com/challenges/python-loops/problem?isFullScreen=true
+# Problem     Loops
+# Difficulty  Easy
+# Subdomain   Introduction
+# Platform    HackerRank
+# Language    pypy3
+# Status      Accepted
+# Submitted   2026-10-04, 02:53 p.m.
+# ──────────────────────────────────────────────────
+
+if __name__ == '__main__':
+    n = int(input())
+    
+    i = 0 
+    while i<n:
+        print(i**2)
+        i += 1
